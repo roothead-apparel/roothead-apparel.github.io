@@ -4,18 +4,32 @@
 	 margin:0;
 }
 .contentWidth{
-	 padding:1em;
+	 padding:1.5em;
 	 margin: 0 auto;
 	 width:100%;
 	 max-width:960px;
 
 }
+.pictures{
+	width:100%;
+	max-width:960px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
 
+}
 .social{
 	width:100%;
 
 }
-
+.gallery{
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
 
 .galleryText{
 	text-align: center;
@@ -27,15 +41,22 @@
 }
 .colhalf_picture {
 	float:left;
-	max-width: inherit;
+	max-width: 100%;
 	padding-top: 0.5em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
 
 }
-#fireman{
-	padding-left: 100px;
-	max-width:800px;
+#supreme{
+	max-width: 100%;
 	padding-top: 0.5em;
-	text-align:center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+
 }
 .clear{
   clear: both;
@@ -74,8 +95,6 @@
 		left:50%;
 		margin-left:-200px;
 		margin-top:-300px;
-
-
 	}
 
 .tees{
