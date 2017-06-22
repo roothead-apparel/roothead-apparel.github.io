@@ -58,6 +58,15 @@ h1{
 	position: relative;
 
 }
+.headerText{
+	max-width: 100%;
+	padding-top: 10em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+
 .singlePics{
 	max-width: 100%;
 	padding-top: 0.5em;
@@ -285,6 +294,9 @@ div.body{
 		}
 		.galleryText{
 			font-size: 28px;
+		}
+		.headerText{
+			padding-top: 14em
 		}
 		#millie{
 			padding-bottom: 4em
