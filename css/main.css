@@ -8,15 +8,10 @@
     display: table;
     clear: both;
 }
-@media screen and (max-width: 500px) {
-		.contentWidth {
-        max-width:500px;
-				width:100%;
-				margin: 0 auto;
-				padding: 1em;
-    }
-	
+h1{
+	text-align: center;
 }
+
 .contentWidth{
 	 padding:1.5em;
 	 margin: 0 auto;
@@ -72,6 +67,14 @@
 	position: relative;
 
 }
+#millie{
+	max-width: 100%;
+	padding-top: 0.5em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
 .clear{
   clear: both;
 
@@ -93,12 +96,14 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
+	text-transform:uppercase;
 }
 .about{
 	background-color:#2E302F;
 	color:#DBDBE5;
 	font-size: 80px;
 	letter-spacing: 18px;
+	text-transform:uppercase;
 }
 .aboutText{
 	font-size: 30px;
@@ -259,3 +264,29 @@ div.body{
 	margin-top: 0;
 	color:#9b9ba0;
 }
+@media
+  only screen and (max-width: 600px){
+  	.about{
+  		font-size:300%;
+
+  	}
+		.heading{
+			font-size: 40px;
+		}
+		.available{
+			font-size: 20px
+		}
+		.buy{
+			font-size: 20px
+		}
+		.aboutText{
+			font-size: 24px;
+			padding: 2em 60px 4em 60px
+		}
+		.galleryText{
+			font-size: 28px;
+		}
+		#millie{
+			padding-bottom: 4em
+		}
+  }
