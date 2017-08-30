@@ -326,6 +326,9 @@ div.body{
   		font-size:270%;
 
   	}
+		.parallax-window {
+			background: url("images/test copy.png");
+		}
 		.heading{
 			font-size: 40px;
 		}
